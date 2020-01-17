@@ -71,6 +71,7 @@ body {
 a {
   color: #268bd2;
   text-decoration: none;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 a strong {
   color: inherit;
@@ -88,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 h1 {
   font-size: 2rem;
@@ -401,6 +403,7 @@ tbody tr:nth-child(odd) th {
 .category .name {
   float:left;
   color: #999;
+  line-height: 30px;
 }
 
 .category .badge {
