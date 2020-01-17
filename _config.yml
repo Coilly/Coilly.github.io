@@ -2,6 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
+relative_permalinks: true
 
 # Setup
 title:               coilly blog
@@ -9,18 +10,11 @@ tagline:             "web publisher"
 description:         '부지런히 공부하고 노는게 목표
                         <br>2018~ <br> 네이버 블로그 <a href="https://blog.naver.com/c0illy">@c0illy</a>'
 url:                  "https://coilly.github.io"
-baseurl:             ''
+baseurl:              "https://coilly.github.io"
 paginate:            5
 
-navigation:
-- title: Home
-  url: /index.html
-- title: About
-  url: /about
-- title: Category
-  url: /category
-- title: Contact
-  url: /contact
+category_dir: category/
+tag_dir: tag/
 
 # About/contact
 author:
