@@ -342,6 +342,7 @@ tbody tr:nth-child(odd) th {
 .post-title,
 .post-title a {
   color: #303030;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 .page-title,
 .post-title {
@@ -381,6 +382,37 @@ tbody tr:nth-child(odd) th {
   color: inherit;
 }
 
+.category .sidebar-nav-item::after {
+  display: block;
+  content:'';
+  clear:both;
+}
+
+.category .name {
+  float:left;
+}
+
+.category .badge {
+  float:right;
+  min-width:30px;
+  height:30px;
+  padding: 0 5px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  background-color: #444
+}
+
+.category-date {
+  display: inline;
+  color: #9a9a9a;
+}
+
+.category-title .title{
+  display: inline;
+  color: #222;
+  font-weight: bold;
+}
 
 /*
  * Pagination
