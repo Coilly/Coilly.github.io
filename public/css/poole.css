@@ -417,21 +417,38 @@ tbody tr:nth-child(odd) th {
   background-color: #444
 }
 
-.category-date {
+.categories__list {
+  margin: 0;
+  padding: 0;
+}
+
+.categories-topic {
+  display: block;
+  margin: 1em 0;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.categories__date {
   display: inline;
   color: #9a9a9a;
 }
 
-.category-title .title{
+.categories__title a{
   display: inline;
   color: #222;
-  font-weight: bold;
 }
 
-.categories {
-  margin: 0;
-  padding: 0;
+.post-title {
+  font-size: 1.563em;
 }
+
+.related-posts {
+
+}
+
+
 
 /*
  * Pagination

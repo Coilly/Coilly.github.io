@@ -9,7 +9,7 @@ tagline:             "web publisher"
 description:         '부지런히 공부하고 놀자!
                         <br>2018~ <br> 네이버 블로그 <a href="https://blog.naver.com/c0illy">@c0illy</a>'
 url:                  "https://coilly.github.io"
-baseurl:              "https://coilly.github.io"
+baseurl:              ""
 paginate:            5
 
 category_dir: category/

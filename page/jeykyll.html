@@ -1,0 +1,30 @@
+---
+layout: default
+title: Categories
+permalink: /category/jekyll/
+icon: th-list
+type: page
+---
+
+<div class="page clearfix">
+    <div class="left categories">
+        {% for category in site.categories %}
+        {% if category.first == "jekyll" %}
+        <strong class="categories-topic">{{category.first}}</strong>
+        {% for posts in category %}
+        {% for post in posts %}
+        {% if post.url %}
+        <ul class="categories__list">
+            <li class="categories__item">
+                <span class="categories__date">{{ post.date | date_to_string }}</span>
+                <sapn class="categories__title"><a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></sapn>
+            </li>
+        </ul>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        {% endif %}
+        {% endfor %}
+
+    </div>
+</div>
