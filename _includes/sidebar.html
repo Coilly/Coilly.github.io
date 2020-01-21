@@ -10,7 +10,7 @@
 
     <nav class="sidebar-nav">
         <ul>
-            <li> <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a></li>
+            <li> <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.github.repo }}/">Home</a></li>
 
             {% assign pages_list = site.pages | sort:"url" %}
             {% for node in pages_list %}
@@ -20,7 +20,7 @@
             {% endif %}
             {% endif %}
             {% endfor %}
-            <li><a class="sidebar-nav-item" href="{{ site.github.repo }}/category">Category</a>
+            <li><a class="sidebar-nav-item" href="{{ site.github.repo }}/category/">Category</a>
                 <div class="category">
                     {% for category in site.categories %}
                     <a href="{{ root_url }}/category/#{{ category | first }}"

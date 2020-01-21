@@ -13,7 +13,6 @@ baseurl:              "https://coilly.github.io"
 paginate:            5
 
 category_dir: category/
-tag_dir: tag/
 
 # About/contact
 author:
