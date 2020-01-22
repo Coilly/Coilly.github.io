@@ -10,6 +10,13 @@ published: true
   {{ content }}
 </div>
 
+<div class="fb-comments"
+     data-href={{ site.url | append: page.url }}
+     data-width="100%
+     data-numposts="5" >
+
+</div>
+
 <div class="related">
   <h4>Related Posts</h4>
   <ul class="related-posts">
@@ -25,3 +32,13 @@ published: true
     {% endfor %}
   </ul>
 </div>
+
+<script>
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.8";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>

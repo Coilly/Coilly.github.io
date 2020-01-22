@@ -1,0 +1,27 @@
+---
+layout: default
+title: tags
+permalink: /tags/
+icon: th-list
+type: page
+---
+
+<div class="page clearfix">
+    <div class="left categories">
+        <ul class="categories__list">
+            {% for tags in site.tags %}
+            <strong id="{{category | first}}" class="categories-topic">{{category | first}}</strong>
+            {% for posts in tags %}
+            {% for post in posts %}
+            {% if post.url %}
+            <li class="categories__item">
+                <span class="categories__date">{{ post.date | date_to_string }}</span>
+                <sapn class="categories__title"><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></sapn>
+            </li>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>
