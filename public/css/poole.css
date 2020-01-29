@@ -449,6 +449,28 @@ tbody tr:nth-child(odd) th {
 }
 
 
+.post p {
+  margin: 0 0 10px 0;
+  font-size: 0.875em;
+  line-height: 1.8;
+  font-weight: 400;
+  letter-spacing: -0.009em;
+  word-break: break-all;
+}
+
+.message {
+  font-size: 0.875em;
+  line-height: 1.8;
+  font-weight: 400;
+  letter-spacing: -0.009em;
+  word-break: break-all;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+
 
 /*
  * Pagination

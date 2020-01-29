@@ -10,15 +10,6 @@
 
     <nav class="sidebar-nav">
         <ul>
-            <li> <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{site.url}}/">Home</a></li>
-            {% assign pages_list = site.pages | sort:"url" %}
-            {% for node in pages_list %}
-            {% if node.title != null %}
-            {% if node.layout == "page" %}
-            <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a></li>
-            {% endif %}
-            {% endif %}
-            {% endfor %}
             <li><a class="sidebar-nav-item" href="{{site.url}}/category/">Category</a>
                 <div class="category">
                     {% for category in site.categories %}
