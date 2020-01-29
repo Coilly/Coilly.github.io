@@ -4,7 +4,7 @@ comments: true
 date: 2020-01-22
 title: "Github Page Jekyll 시작하기 - github만들기"
 description: "Github Page Jekyll 만들기 - github만들기"
-category: Jekyll
+category: jekyll
 ---
 <br>
 

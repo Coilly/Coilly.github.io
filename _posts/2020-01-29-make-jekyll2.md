@@ -4,7 +4,7 @@ comments: true
 date: 2020-01-29
 title: "Github Page Jekyll 시작하기 - 기초세팅"
 description: "Github Page Jekyll 만들기 - 기초세팅"
-category: Jekyll
+category: jekyll
 ---
 <br>
 
