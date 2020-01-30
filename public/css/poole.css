@@ -479,12 +479,16 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
 }
 
-/*
- * Pagination
- *
- * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
- * there are no more previous or next posts to show.
- */
+.fb_iframe_widget_fluid_desktop iframe {
+    width: 1000px !important;
+}
+
+    /*
+     * Pagination
+     *
+     * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+     * there are no more previous or next posts to show.
+     */
 
 .pagination {
   overflow: hidden; /* clearfix */
