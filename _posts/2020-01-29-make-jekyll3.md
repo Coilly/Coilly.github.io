@@ -2,8 +2,8 @@
 layout: post
 comments: true
 date: 2020-01-30
-title: "Github Page Jekyll 시작하기 - 폴더 구조 파악"
-description: "Github Page Jekyll 만들기 - 폴더 구조 파악"
+title: "Github Page Jekyll 시작하기 - 문제점 & 폴더 구조 "
+description: "Github Page Jekyll 만들기 - 문제점 & 폴더 구조"
 category: jekyll
 ---
 <br>
