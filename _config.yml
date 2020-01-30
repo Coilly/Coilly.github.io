@@ -6,8 +6,8 @@ permalink:           pretty
 # Setup
 title:               coilly blog
 tagline:             "web publisher"
-description:         '부지런히 공부하고 놀자!
-                        <br>2018~ <br> 네이버 블로그 <a href="https://blog.naver.com/c0illy">@c0illy</a>'
+description:         '살기위해 공부함
+                        <br>2017.12~ <br>일상담긴 네이버 블로그 운영중<br><a href="https://blog.naver.com/c0illy">@c0illy</a>'
 url:                  "https://coilly.github.io"
 baseurl:              ""
 paginate:            5
