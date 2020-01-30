@@ -11,31 +11,28 @@ category: jekyll
 ## git을 이용한 기본세팅 
  
 <strong>window 기준으로 된 작성법</strong>이다 (mac을 위한 작성법은 명령어가 다르다)<br>
-기본적으로 주 사용 프로그램은 vscode와 git을 다룬다.
+기본적으로 주 사용 프로그램은 vsstudio와 git을 다룬다.
 
-![8](https://user-images.githubusercontent.com/37950570/73323944-8906cb80-428c-11ea-8b6c-86b3c41857c8.PNG)
-github 페이지가 만들어졌으면 자주쓰는 언어 프로그램(저는 vscode)을 실행한 후 <br>
-아까 만들었던 레포지스토리 https 주소를 복사한다<br><br>
+github 레퍼지스토리(폴더)가 만들어졌으면 git 관리를 위해 자주쓰는 언어 프로그램(저는 vscode)을 실행한 후 <br>
 
 ![9](https://user-images.githubusercontent.com/37950570/73324299-dfc0d500-428d-11ea-8a81-45e917c0f13e.PNG)
-그리고 원하는 파일 경로에 들어가 마우스 오른쪽 버튼을 눌러 git bash를 눌러준다<br>
-(git 프로그램을 실행해서 git에 있는 레포지스토리를 가져오는 거다)<br><br>
+원하는 파일 경로에 들어가 마우스 오른쪽 버튼을 눌러 git bash를 눌러준다<br>
 
 ![10](https://user-images.githubusercontent.com/37950570/73324651-06334000-428f-11ea-9eeb-c5dec3da4187.PNG)
 git bash를 눌러주면 위의 검은 화면이 뜨는데 여기에 명령어를 쓰면 <br>
 github에 있는 repository의 파일들을 가져올 수 있고 수정 등등 다 가능한 창이다<br><br>
-이 검은 창(git)에 아래 명령어들을 차례로 친다 ("&nbsp;" 는 제외하고 넣을것)<br>
-<strong>(레포지스토리를 붙여 넣을땐 검은창에 마우스를 대고 마우스 오른쪽을 눌러 paste를 눌러주기)</strong><br><br>
-
+이 검은 창(git)에 아래 명령어들을 차례로 친다 ("&nbsp;" 는 제외하고 자신의 것을 넣을것)<br>
 
 {% highlight js %} git config --global user.name "깃허브 네임"
- git config --global user.email "깃허브 이메일" 
- git clone "복사한 레포지스토리 https"  {% endhighlight %}
-
+ git config --global user.email "깃허브 이메일" {% endhighlight %}
  
 그 다음엔 <code>git config --list</code>를 쳐서 마지막에 나오는 <br>
 <code>user.name, user.email</code>이 잘 들어갔는지 확인하기<br>
+확인을 다 했다면 vscode를 통해 git 을 가져올 차례다<br><br>
 
+![8](https://user-images.githubusercontent.com/37950570/73323944-8906cb80-428c-11ea-8b6c-86b3c41857c8.PNG)
+만들때 보이는 이 http주소를 복사해두고 가져온다<br>
+자세한 과정은 [git가져오기 참고](https://demun.github.io/vscode-tutorial/git/)<br>
 
 ![12](https://user-images.githubusercontent.com/37950570/73330268-ac894080-42a3-11ea-96be-029d515e0267.PNG)
 따라오다 보면 이렇게 원하는 경로에 폴더가 만들어 진다<br>
@@ -44,21 +41,19 @@ gitblog page가 잘 만들어 졌는지 확인하기 위해 기본 설정에 들
 
 ## 화면이 보이기 위한 기본세팅 
  <div class="message"> 
-이제부터 vscode 프로그램을 사용할건데<br> 아까 사용한 gitbash 검은창은 vscode에 terminal 역할과 같다
+아까 사용한 gitbash 검은창은 vscode에 terminal 역할과 같다
 </div>
 
-일단 vscode 에 들어가 open folder로 아까 가져왔던 경로의 파일로 들어가고
-![15](https://user-images.githubusercontent.com/37950570/73331135-2d493c00-42a6-11ea-90a3-349f869cf74d.PNG)
 <br>
+terminal을 보이기 위해 저 아래 부분을 눌러준다
 
-아까 말했던 terminal을 보이기 위해 저 아래 부분을 눌러준다
 ![14](https://user-images.githubusercontent.com/37950570/73331068-fbd07080-42a5-11ea-9a2d-8ec4a400ecbd.PNG)
 그러면 오른쪽에 터미널이 있는게 보일것이다 이제는 여기에 명령어를 칠 예정이다!
 
 >궁금하지 않을 수 있지만 궁금증이 생길 내용을 하자면<br>
 *git 명령어를 (terminal)여기에 쓸거면 처음부터 git 프로그램을 설치 안해도 되는거 아닌가? <br>
 -> git 을 기반으로 하는 blog이기 때문에 git 프로그램을 다운받아야 한다.<br>
- 쓰는 방법을 알려드렸을 뿐!<br>
+ 쓰는 방법을 알려드렸을 뿐! git 관리는 vscode로 할 예정!<br>
 
 
 ### install ruby 
