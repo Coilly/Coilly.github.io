@@ -13,10 +13,10 @@ category: jekyll
 <strong>window 기준으로 된 작성법</strong>이다 (mac을 위한 작성법은 명령어가 다르다)<br>
 기본적으로 주 사용 프로그램은 vsstudio와 git을 다룬다.
 
-github 레퍼지스토리(폴더)가 만들어졌으면 git 관리를 위해 자주쓰는 언어 프로그램(저는 vscode)을 실행한 후 <br>
+github 레퍼지스토리(폴더)가 만들어졌으면 git 관리를 위해 자주쓰는 언어 프로그램(저는 vscode)을 사용<br>
 
 ![9](https://user-images.githubusercontent.com/37950570/73324299-dfc0d500-428d-11ea-8a81-45e917c0f13e.PNG)
-원하는 파일 경로에 들어가 마우스 오른쪽 버튼을 눌러 git bash를 눌러준다<br>
+일단 원하는 파일 경로에 들어가 마우스 오른쪽 버튼을 눌러 git bash를 눌러준다<br>
 
 ![10](https://user-images.githubusercontent.com/37950570/73324651-06334000-428f-11ea-9eeb-c5dec3da4187.PNG)
 git bash를 눌러주면 위의 검은 화면이 뜨는데 여기에 명령어를 쓰면 <br>
