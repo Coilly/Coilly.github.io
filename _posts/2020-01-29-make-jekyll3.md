@@ -51,8 +51,28 @@ end
 .bundle , .git, .jekyll-cache, vendor 은 환경설정에 관한 것이고 gemfile, gemfile.lock은 ruby에 대한 환결설정 쯤으로 이해하면 될것 같다 
 ![19](https://user-images.githubusercontent.com/37950570/73435703-812e5080-438c-11ea-893a-e0b031c3b57c.PNG)
 
-여기서 중요한건<strong> __includes, __layouts, __posts, __site, _config.yml</strong>를 꼽을 수 있다<br>
-왼쪽에 slide-bar은 블로그의 상태를 나타내는 _config.yml 안을 수정하면 된다
+여기서 중요한건<strong> __includes, __layouts, __posts, __site, _config.yml</strong>를 꼽을 수 있다<br><br>
+
+### __includes ?
+알다시피 공통적으로 들어가는 include 되는 파일들이 담긴 폴더<br>
+### __layouts ?
+페이지를 만들때 템플릿 같은 것이라고 생각하면 될 것 같다. <br>
+### __posts ?
+폴더를 열게되면 기본적인 예시가 담긴 .md파일이 있다<br>
+맨위에 layout: 이 명시되어 있는데 뒤에 어느 템플릿을 쓸 예정인지 써주면 된다<br>
+글은 파일을 추가하면서 글을 쓰면 되고 년도-월-일-제목으로 파일이름을 해주는게 기본이다
+### __site ?
+__post에 글을 쓰게되면 알아서 폴더를 만들고 나눠주는데, 이건 따로 보지 않아도 될듯 하다 <br>
+### _config.yml ?
+_config.yml는 블로그의 내용이 담긴 파일으로 <br> 
+내용을 수정하면 왼쪽 slide-bar에 글이 있는 부분이 수정이 되게 작성 되어있다<br>
+하나씩 바꾸면서 어떤 부분이 수정되는지 확인하는 시간을 가지길 바란다 <br>
+
+
+
+
+
+
 
 
 
