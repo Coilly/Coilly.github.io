@@ -361,11 +361,15 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #ea2b2b;
 }
 .page-title,
 .post-title {
   margin-top: 0;
+}
+
+.post-content {
+  color: #999999;
 }
 
 /* Meta data line below post title */
